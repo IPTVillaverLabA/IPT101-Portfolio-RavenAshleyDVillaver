@@ -1,7 +1,7 @@
 const student = {
     name: "Raven Ashley Villaver",
     idNumber: "2026-6690",
-    yearLevel: 1,
+    yearLevel: 2,
     program: "Information Technology"
 };
 
@@ -30,21 +30,21 @@ let gwa = totalGrade / totalUnits;
 
 let gwaLetter;
 
-if (gwa >= 98) {
+if (gwa >= 98 && gwa <= 100) {
     gwaLetter = "A";
-    } else if (gwa >= 94) {
+    } else if (gwa >= 94 && gwa < 98) {
         gwaLetter = "A-";
-    } else if (gwa >= 90) {
+    } else if (gwa >= 90 && gwa < 94) {
         gwaLetter = "B+";
-    } else if (gwa >= 87) {
+    } else if (gwa >= 87 && gwa < 90) {
         gwaLetter = "B";
-    } else if (gwa >= 83) {
+    } else if (gwa >= 83 && gwa < 87) {
         gwaLetter = "B-";
-    } else if (gwa >= 80) {
+    } else if (gwa >= 80 && gwa < 83) {
         gwaLetter = "C+";
-    } else if (gwa >= 77) {
+    } else if (gwa >= 77 && gwa < 80) {
         gwaLetter = "C";
-    } else if (gwa >= 73) {
+    } else if (gwa >= 73 && gwa < 77) {
         gwaLetter = "D";
     } else {
         gwaLetter = "F";
