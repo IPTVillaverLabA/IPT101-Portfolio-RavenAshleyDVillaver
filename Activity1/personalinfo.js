@@ -66,3 +66,4 @@ console.log(courses.course5.subject + " - " + courses.course5.grade + "%");
 console.log("\n===== GENERAL WEIGHTED AVERAGE =====");
 console.log("GWA: " + gwa.toFixed(2));
 console.log("Letter Grade: " + gwaLetter);
+
